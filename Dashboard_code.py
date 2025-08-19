@@ -26,10 +26,10 @@ if uploaded_file:
     st.sidebar.header("🔧 Column Mapping")
 
     # Dropdowns for column mapping
-    company_col = st.sidebar.selectbox("Company Column", df.columns, index=1)
-    location_col = st.sidebar.selectbox("Location Column", df.columns, index=4)
-    skills_col = st.sidebar.selectbox("Skills Column", df.columns, index=6)
-    desc_col = st.sidebar.selectbox("Description Column", df.columns, index=7)
+    company_col = st.sidebar.selectbox("Company Column", df.columns, index=0)
+    location_col = st.sidebar.selectbox("Location Column", df.columns, index=1)
+    skills_col = st.sidebar.selectbox("Skills Column", df.columns, index=2)
+    desc_col = st.sidebar.selectbox("Description Column", df.columns, index=3)
 
     # ----------------------------
     # Visualizations
